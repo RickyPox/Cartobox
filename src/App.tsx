@@ -1,7 +1,15 @@
-import React from "react";
+import Home from "../components/Home";
+import Service from "../components/Service";
+import Produtos from "../components/Produtos";
+import Faq from "../components/Faq";
 
-const App = () => {
-    return <div>App</div>;
-};
-
-export default App;
+export default function App() {
+    return (
+        <div>
+            <Home />
+            <Service />
+            <Produtos />
+            <Faq />
+        </div>
+    );
+}
