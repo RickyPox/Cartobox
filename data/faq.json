@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "question": "Qual é a diferença entre cartão simples e duplo?",
+        "answer": "O cartão canelado simples é ideal para produtos leves e embalagens padrão, oferecendo boa proteção a um custo eficiente. O cartão duplo fornece resistência superior para cargas pesadas e transporte de longa distância, com maior durabilidade estrutural."
+    },
+    {
+        "id": 2,
+        "question": "Quanto tempo leva para entregar uma encomenda?",
+        "answer": "Os prazos dependem da complexidade do projeto e volume. Projetos simples podem ser entregues em 5 a 7 dias úteis. Volumes maiores ou designs complexos podem exigir mais tempo. Discutiremos o cronograma específico durante a cotação."
+    },
+    {
+        "id": 3,
+        "question": "Posso personalizar completamente minha embalagem?",
+        "answer": "Sim. Oferecemos personalização total em dimensões, impressão, cores e acabamentos. A nossa equipa trabalha com você desde o design até a produção final para garantir que a embalagem reflita sua marca."
+    },
+    {
+        "id": 4,
+        "question": "Vocês usam materiais sustentáveis?",
+        "answer": "Todos os nossos cartões são 100% recicláveis e produzidos com responsabilidade ambiental. Utilizamos processos que minimizam desperdício e priorizamos fornecedores com práticas sustentáveis."
+    },
+    {
+        "id": 5,
+        "question": "Qual é o volume mínimo para um pedido?",
+        "answer": "Trabalhamos com projetos de qualquer tamanho, desde pequenas quantidades até grandes volumes. Não há um mínimo obrigatório. Contacte-nos para discutir as opções mais adequadas ao seu negócio."
+    }
+]

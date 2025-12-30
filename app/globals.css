@@ -1,26 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap");
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    --primary-color: #00a3d4;
+    --secondary-color: #c4e4ff;
+    --black: #000000;
+    --white: #ffffff;
+    --off-white: #f2f2f2;
+    --border: #0c0a0415;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html {
+    font-size: 16px;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--black);
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-size: 3.25rem;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -1px;
+}
+
+p {
+    font-size: 1.125rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+h3 {
+    font-size: 1rem;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+h4 {
+    font-size: 2.25rem;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: -1px;
+}
+
+button p {
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+nav {
+    width: 100vw;
+    padding: 20px 64px;
+    background-color: var(--off-white);
+}
+.nav-item p {
+    font-size: 1rem;
+}
+
+footer {
+    width: 100vw;
+    padding: 80px 64px;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+.footer-rights-wrapper {
+    max-width: 1280px;
+    border-top: solid 1px var(--border);
+    padding-top: 34px;
+}
+
+.footer-rights-wrapper p {
+    font-size: 0.875rem;
+}
+
+.footer-rights-wrapper a {
+    text-decoration: underline;
+}
+.container {
+    max-width: 1440px;
+    padding: 112px 64px;
+}
+
+.wrapper {
+    max-width: 1280px;
+}
+
+.faq-wrapper {
+    max-width: 768px;
+}
+
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+p.faq-question {
+    font-weight: 700 !important;
+}
+
+.faq-accordion {
+    border: solid 1px var(--border);
+    border-radius: 8px;
+}
+
+.answer-wrapper {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    padding-left: 24px;
+    padding-right: 24px;
 }
