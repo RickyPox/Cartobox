@@ -100,6 +100,9 @@ footer {
 .wrapper {
     max-width: 1280px;
 }
+.about-wrapper {
+    max-width: 720px;
+}
 
 .faq-wrapper {
     max-width: 768px;
@@ -133,4 +136,8 @@ p.faq-question {
     opacity: 0;
     padding-left: 24px;
     padding-right: 24px;
+}
+
+.certificates-wrapper h4 {
+    font-size: 1.5rem;
 }
