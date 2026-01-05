@@ -37,7 +37,7 @@ export default function Faq() {
     return (
         <section className="flex justify-center" style={{ backgroundColor: "var(--off-white)" }}>
             <div className="container flex-column justify-center items-center gap-y-20">
-                <div className="wrapper flex-column gap-y-6 justify-center items-center">
+                <div className="wrapper flex-column gap-y-6 justify-center items-center title-wrapper">
                     <h2>Perguntas</h2>
                     <p>Encontre respostas sobre nossos materiais, processos e serviços de personalização.</p>
                 </div>
@@ -74,7 +74,7 @@ export default function Faq() {
                         );
                     })}
                 </div>
-                <div className="wrapper flex-column gap-y-6 justify-center items-center mt-30">
+                <div className="wrapper flex-column gap-y-6 justify-center items-center mt-30 title-wrapper">
                     <h2>Ainda tem dúvidas?</h2>
                     <p>Entre em contacto connosco para assistência personalizada.</p>
                     <Button text="Contacte-nos" link="#" />

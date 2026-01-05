@@ -11,7 +11,7 @@ export default function Service() {
                         <p>Cada embalagem é desenhada especificamente para as suas necessidades.</p>
                     </div>
                 </div>
-                <div className="cards-wrapper w-full grid grid-cols-3 gap-8">
+                <div className="cards-wrapper w-full lg:grid lg:grid-cols-3 lg:gap-8 flex flex-col gap-y-6">
                     <Card category="Personalização" title="Design à medida com impressão de alta qualidade" image="/Personalizacao.png" />
                     <Card category="Sustentabilidade" title="Temos um compromisso com o ambiente" image="/Sustentabilidade.png" />
                     <Card category="Rapidez" title="Entrega rápida para garantir as necessidades" image="/Rapidez.png" />

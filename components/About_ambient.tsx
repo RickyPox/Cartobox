@@ -6,21 +6,21 @@ export default function AboutAmbient() {
                     <h2>O nosso compromisso com o ambiente</h2>
                     <div className="certificates-wrapper flex-row gap-x-8">
                         <div className="fcs-wrapper w-1/3 flex-column gap-y-8 items-center justify-center">
-                            <a href="">
-                                <img src="FSC.png" alt="FSC Logo" aria-label="Logo FSC" />
-                                <h4>Certificação FSC</h4>
+                            <a className="flex-column gap-y-8" href="">
+                                <img className="" src="FSC.png" alt="FSC Logo" aria-label="Logo FSC" />
+                                <h4 className="text-center">Certificação FSC</h4>
                             </a>
                         </div>
-                        <div className="ponto-verde-wrapper w-1/3 flex-column gap-y-8 items-center justify-center">
-                            <a href="">
+                        <div className="ponto-verde-wrapper w-1/3 flex-column items-center justify-center">
+                            <a className="flex-column gap-y-8" href="">
                                 <img src="Ponto_verde.png" alt="Ponto Verde Logo" aria-label="Logo Ponto Verde" />
-                                <h4>Certificação Ponto Verde</h4>
+                                <h4 className="text-center">Certificação Ponto Verde</h4>
                             </a>
                         </div>
                         <div className="pegada-carbono-wrapper w-1/3 flex-column gap-y-8 items-center justify-center">
-                            <a href="">
+                            <a className="flex-column gap-y-8" href="">
                                 <img src="Pegada.png" alt="Pegada Logo" aria-label="Logo Pegada" />
-                                <h4>Redução Pegada de Carbono</h4>
+                                <h4 className="text-center">Redução Pegada de Carbono</h4>
                             </a>
                         </div>
                     </div>

@@ -4,9 +4,13 @@ export default function AboutHero() {
     return (
         <section className="bg-secondary flex justify-center">
             <div className="container">
-                <div className="wrapper flex-row gap-x-20">
-                    <img className="w-1/3 " src="/About_hero.png" alt="About Hero Image" />
-                    <div className="flex-column gap-y-8">
+                <div className="wrapper flex md:flex-row flex-col gap-y-6 lg:gap-y-0 lg:gap-x-20 gap-x-6">
+                    <img
+                        className="md:w-1/3 md:h-auto md:object-center w-auto h-80 object-cover object-top"
+                        src="/About_hero.png"
+                        alt="About Hero Image"
+                    />
+                    <div className="flex-column lg:gap-y-8 gap-y-6">
                         <div className="about-wrapper flex-column gap-y-6">
                             <h1>Abra a caixa da nossa história</h1>
                             <p>

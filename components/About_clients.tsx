@@ -1,10 +1,11 @@
+import Marquee from "react-fast-marquee";
+
 export default function AboutClients() {
     return (
         <section className=" flex justify-center">
             <div className="container relative">
-                <img src="/Clientes.png" alt="Cliente" aria-label="imagem cliente" className="absolute bottom-0 right-0" />
-                <div className="wrapper">
-                    <div className="about-wrapper flex-column gap-y-6">
+                <div className="wrapper flex flex-row items-end">
+                    <div className="about-wrapper flex-column gap-y-6 md:w-1/2">
                         <h2>Os nossos clientes</h2>
                         <p>
                             Com uma história sólida e uma reputação inabalável, construímos a nossa empresa com base em valores fundamentais de
@@ -21,6 +22,10 @@ export default function AboutClients() {
                             Alguns dos nossos clientes estão presentes nas indústrias do vidro, vinhos, cerâmica, alimentar, plástico, e-commerce,
                             etc...
                         </p>
+                    </div>
+                    <Marquee></Marquee>
+                    <div className="md:block hidden">
+                        <img src="/Clientes.png" alt="Cliente" aria-label="imagem cliente" />
                     </div>
                 </div>
             </div>
