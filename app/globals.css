@@ -69,11 +69,8 @@ nav {
     padding: 20px 64px;
     background-color: var(--off-white);
 }
-.nav-item p {
+.nav-item {
     font-size: 1rem;
-}
-.title-wrapper {
-    text-align: center;
 }
 
 footer {
@@ -103,6 +100,9 @@ footer {
 .wrapper {
     max-width: 1280px;
 }
+.title-wrapper {
+    text-align: center;
+}
 .about-wrapper {
     max-width: 720px;
 }
@@ -110,7 +110,9 @@ footer {
 .faq-wrapper {
     max-width: 768px;
 }
-
+.cardboard-wrapper {
+    max-width: 1024px;
+}
 .bg-secondary {
     background-color: var(--secondary-color);
 }
@@ -122,10 +124,6 @@ footer {
 .flex-column {
     display: flex;
     flex-direction: column;
-}
-
-p.faq-question {
-    font-weight: 700 !important;
 }
 
 .faq-accordion {
@@ -178,5 +176,11 @@ p.faq-question {
     }
     footer {
         padding: 64px 24px;
+    }
+}
+
+@media (width <= 767px) {
+    .cardboard-wrapper {
+        max-width: 450px;
     }
 }

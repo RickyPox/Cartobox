@@ -2,24 +2,39 @@ export default function AboutAmbient() {
     return (
         <section className=" flex justify-center">
             <div className="container">
-                <div className="wrapper flex-column gap-y-8">
-                    <h2>O nosso compromisso com o ambiente</h2>
-                    <div className="certificates-wrapper flex-row gap-x-8">
-                        <div className="fcs-wrapper w-1/3 flex-column gap-y-8 items-center justify-center">
-                            <a className="flex-column gap-y-8" href="">
-                                <img className="" src="FSC.png" alt="FSC Logo" aria-label="Logo FSC" />
+                <div className="wrapper flex-column gap-y-8 ">
+                    <h2 className="text-center">O nosso compromisso com o ambiente</h2>
+                    <div className="certificates-wrapper gap-x-8 gap-y-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+                        <div className="fcs-wrapper col-span-1 flex-column gap-y-8 items-center justify-center">
+                            <a className="flex-column gap-y-8 h-full justify-between" href="">
+                                <img
+                                    className="h-full md:max-h-[180px] max-h-[180px] object-contain"
+                                    src="FSC.png"
+                                    alt="FSC Logo"
+                                    aria-label="Logo FSC"
+                                />
                                 <h4 className="text-center">Certificação FSC</h4>
                             </a>
                         </div>
-                        <div className="ponto-verde-wrapper w-1/3 flex-column items-center justify-center">
-                            <a className="flex-column gap-y-8" href="">
-                                <img src="Ponto_verde.png" alt="Ponto Verde Logo" aria-label="Logo Ponto Verde" />
+                        <div className="ponto-verde-wrapper col-span-1 flex-column items-center justify-center">
+                            <a className="flex-column gap-y-8 h-full justify-between" href="">
+                                <img
+                                    className="h-full md:max-h-[180px] max-h-[80px] object-contain"
+                                    src="Ponto_verde.png"
+                                    alt="Ponto Verde Logo"
+                                    aria-label="Logo Ponto Verde"
+                                />
                                 <h4 className="text-center">Certificação Ponto Verde</h4>
                             </a>
                         </div>
-                        <div className="pegada-carbono-wrapper w-1/3 flex-column gap-y-8 items-center justify-center">
-                            <a className="flex-column gap-y-8" href="">
-                                <img src="Pegada.png" alt="Pegada Logo" aria-label="Logo Pegada" />
+                        <div className="pegada-carbono-wrapper col-span-1 flex-column gap-y-8 items-center justify-center">
+                            <a className="flex-column gap-y-8 h-full justify-between" href="">
+                                <img
+                                    className="h-full md:max-h-[180px] max-h-[180px] object-contain"
+                                    src="Pegada.png"
+                                    alt="Pegada Logo"
+                                    aria-label="Logo Pegada"
+                                />
                                 <h4 className="text-center">Redução Pegada de Carbono</h4>
                             </a>
                         </div>

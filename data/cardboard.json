@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Cartão Canelado Micro",
+        "description": "Composto por três folhas de papel (1 canelura + 2 folhas planas), cerca de 2mm de espessura. Indicado para caixas de pequena dimensão.",
+        "img": "/cartao/Canelado_micro.png"
+    },
+    {
+        "name": "Cartão Canelado Fino",
+        "description": "Composto por três folhas de papel (1 canelura + 2 folhas planas), cerca de 3mm de espessura. Apropriado para caixas de arrumação, embalamento e transporte.",
+        "img": "/cartao/Canelado_fino.png"
+    },
+    {
+        "name": "Cartão Canelado Largo",
+        "description": "Composto por três folhas de papel (1 canelura + 2 folhas planas) , cerca de 4mm de espessura. Ideal para caixas de embalamento e transporte.",
+        "img": "/cartao/Canelado_largo.png"
+    },
+    {
+        "name": "Cartão Canelado Duplo",
+        "description": "Composto por cinco folhas de papel (2 caneluras + 3 folhas planas) , cerca de 6mm de espessura. Adequado para produtos mais pesados, devido à maior robustez e estabilidade do cartão.",
+        "img": "/cartao/Canelado_duplo.png"
+    },
+    {
+        "name": "Cartão Canelado Duplo Micro",
+        "description": "Composto por cinco folhas de papel (2 caneluras + 3 folhas planas) , cerca de 4mm de espessura. Distingue-se do cartão canelado duplo por possuir um dos ondulados micro, conferindo maior resistência à parede do cartão, o que possibilita impressões de maior qualidade.",
+        "img": "/cartao/Canelado_duplo_micro.png"
+    }
+]

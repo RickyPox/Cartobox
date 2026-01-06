@@ -12,7 +12,7 @@ export default function Home() {
                         </p>
                     </div>
                     <div>
-                        <Button text="Encontre a embalagem à sua medida" link="#" bgColor="var(--primary-color)" />
+                        <Button text="Encontre a embalagem à sua medida" link="/contactos" bgColor="var(--primary-color)" />
                     </div>
                 </div>
             </div>

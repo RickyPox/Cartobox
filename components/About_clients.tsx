@@ -23,11 +23,12 @@ export default function AboutClients() {
                             etc...
                         </p>
                     </div>
-                    <Marquee></Marquee>
+
                     <div className="md:block hidden">
                         <img src="/Clientes.png" alt="Cliente" aria-label="imagem cliente" />
                     </div>
                 </div>
+                <Marquee></Marquee>
             </div>
         </section>
     );

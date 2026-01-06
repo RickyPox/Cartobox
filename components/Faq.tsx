@@ -47,9 +47,12 @@ export default function Faq() {
                         const isOpen = openItems.includes(i);
 
                         return (
-                            <div key={i} className="faq-accordion">
-                                <div className="question-wrapper flex-row justify-between py-5 px-6 gap-x-6" onClick={() => handleToggle(i)}>
-                                    <p className="faq-question">{item.question}</p>
+                            <div key={i} className="faq-accordion ">
+                                <div
+                                    className="question-wrapper flex-row justify-between py-5 px-6 gap-x-6 cursor-pointer"
+                                    onClick={() => handleToggle(i)}
+                                >
+                                    <p className="font-bold!">{item.question}</p>
                                     <img
                                         src="/faq_icon.svg"
                                         alt="Icon Abrir/Fechar"
@@ -77,7 +80,7 @@ export default function Faq() {
                 <div className="wrapper flex-column gap-y-6 justify-center items-center mt-30 title-wrapper">
                     <h2>Ainda tem dúvidas?</h2>
                     <p>Entre em contacto connosco para assistência personalizada.</p>
-                    <Button text="Contacte-nos" link="#" />
+                    <Button text="Contacte-nos" link="/contactos" />
                 </div>
             </div>
         </section>

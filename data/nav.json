@@ -1,6 +1,5 @@
 [
     { "title": "Início", "link": "/" },
-    { "title": "Quem somos", "link": "#quem-somos" },
-    { "title": "Produtos", "link": "#produtos" },
-    { "title": "Contactos", "link": "#contactos" }
+    { "title": "Quem somos", "link": "/quem-somos" },
+    { "title": "Contactos", "link": "/contactos" }
 ]
