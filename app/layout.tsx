@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
     title: "Cartobox | Caixas que são a cara do seu negócio!",
@@ -18,6 +19,7 @@ export default function RootLayout({
             <body>
                 <Navbar />
                 {children}
+                <Toaster />
                 <Footer />
             </body>
         </html>

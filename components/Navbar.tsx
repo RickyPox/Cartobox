@@ -142,7 +142,7 @@ export default function Navbar() {
 
             {/* Mobile Menu */}
             {isVisible && (
-                <div ref={menuRef} className="lg:hidden w-full bg-white shadow-md mt-8">
+                <div ref={menuRef} className="lg:hidden w-full bg-white shadow mt-8">
                     <ul className="flex flex-col items-center gap-6 py-6">
                         {navItems.map((item, index) => (
                             <li
