@@ -1,4 +1,5 @@
 import Button from "../components/Button";
+
 export default function Home() {
     return (
         <section className="bg-secondary flex justify-center">
@@ -11,6 +12,7 @@ export default function Home() {
                             estrutura de cada embalagem.
                         </p>
                     </div>
+
                     <div>
                         <Button text="Encontre a embalagem à sua medida" link="/contactos" bgColor="var(--primary-color)" />
                     </div>

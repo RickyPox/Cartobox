@@ -89,7 +89,7 @@ export default function Contactos() {
                         <h2 className="">Contactos</h2>
                         <p>Estes são os métodos que pode usar para nos contactar.</p>
                     </div>
-                    <div className="contact-wrapper w-full flex gap-x-6 items-center justify-between shadow p-20 ">
+                    <div className="contact-wrapper w-full flex xl:flex-row flex-col  gap-y-10 xl:gap-x-6 xl:items-center xl:justify-between shadow p-20 ">
                         <div className="address-wrapper">
                             <p className="font-bold!">Morada:</p>
                             <p>
@@ -99,7 +99,7 @@ export default function Contactos() {
                                 </span>
                             </p>
                         </div>
-                        <div className="phone-wrapper">
+                        <div className="phone-wrapper ">
                             <div className="flex gap-x-2">
                                 <p className="font-bold!">Telefone:</p>
                                 <p>244 545 380</p>
@@ -119,19 +119,20 @@ export default function Contactos() {
                             </p>
                         </div>
                     </div>
-                    <div className="w-full form-map-wrapper flex ">
-                        <div className="map-wrapper w-full">
+                    <div className="w-full form-map-wrapper flex xl:flex-row flex-col-reverse items-center xl:items-stretch">
+                        <div className="map-wrapper w-full max-w-3xl">
                             <iframe
+                                className="h-180 xl:h-full rounded-l-lg"
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.0764922811163!2d-8.974594423478417!3d39.68436939988667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd220941deaf13cd%3A0xb28d128d399d7560!2sCartobox%2C%20Lda!5e1!3m2!1spt-PT!2spt!4v1767806201565!5m2!1spt-PT!2spt"
                                 width={"100%"}
                                 height={"100%"}
-                                style={{ border: 0, borderTopLeftRadius: "8px", borderBottomLeftRadius: "8px" }}
+                                style={{ border: 0 }}
                                 allowFullScreen
                                 loading="lazy"
                                 referrerPolicy="no-referrer-when-downgrade"
                             ></iframe>
                         </div>
-                        <div className="form-wrapper max-w-3xl w-full bg-white p-10 rounded-r-lg shadow">
+                        <div className="form-wrapper max-w-3xl w-full bg-white p-10 xl:rounded-r-lg shadow">
                             <ContactForm sendMail={sendMail} />
                         </div>
                     </div>
