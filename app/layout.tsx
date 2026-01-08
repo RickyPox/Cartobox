@@ -5,9 +5,65 @@ import Footer from "@/components/Footer";
 import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
-    title: "Cartobox | Caixas que são a cara do seu negócio!",
+    title: {
+        default: "Cartobox | Caixas que são a cara do seu negócio!",
+        template: "%s | Cartobox",
+    },
     description:
-        "Na Cartobox procuramos responder às necessidades individuais de cada empresa, personalizando a impressão, dimensão e estrutura de cada embalagem.",
+        "Na Cartobox desenvolvemos embalagens personalizadas à medida do seu negócio. Impressão, dimensão e estrutura adaptadas às suas necessidades.",
+    keywords: [
+        "embalagens personalizadas",
+        "caixas personalizadas",
+        "embalagens por medida",
+        "caixas para empresas",
+        "embalagens Cartobox",
+        "caixas com impressão personalizada",
+        "cartobox",
+    ],
+    authors: [{ name: "Cartobox" }],
+    creator: "Cartobox",
+    publisher: "Cartobox",
+
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+        },
+    },
+
+    openGraph: {
+        type: "website",
+        locale: "pt_PT",
+        url: "https://cartobox.pt", // altera se necessário
+        siteName: "Cartobox",
+        title: "Cartobox | Caixas que são a cara do seu negócio!",
+        description: "Criamos embalagens personalizadas que valorizam a identidade do seu negócio.",
+        images: [
+            {
+                url: "/og-image.png", // ideal: 1200x630
+                width: 1200,
+                height: 630,
+                alt: "Cartobox - Embalagens Personalizadas",
+            },
+        ],
+    },
+
+    twitter: {
+        card: "summary_large_image",
+        title: "Cartobox | Caixas que são a cara do seu negócio!",
+        description: "Embalagens personalizadas à medida do seu negócio.",
+        images: ["/og-image.png"],
+    },
+
+    icons: {
+        icon: "/favicon.ico",
+        shortcut: "/favicon.ico",
+        apple: "/apple-touch-icon.png",
+    },
+
+    metadataBase: new URL("https://cartobox.pt"),
 };
 
 export default function RootLayout({
