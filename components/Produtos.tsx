@@ -12,21 +12,21 @@ export default function Produtos() {
                     </div>
                 </div>
             </div>
-            <div className="flex-column gap-y-10">
-                {/* <Marquee speed={50} gradient={false} className="gap-x-8 ">
-                    <div className="flex-row items-center ">
+            <div className="flex-column gap-y-10 lg:scale-100 scale-50 -mt-20 lg:mt-0">
+                <Marquee autoFill speed={50} gradient={false} className="gap-x-8 ">
+                    <div className="flex-row items-center gap-x-8">
                         {Array.from({ length: 7 }, (_, i) => (
-                            <img className="w-[10vw] lg:w-[170px] mx-4" key={i + 1} src={`/produtos/Caixa_${i + 1}.svg`} />
+                            <img className="mx-4" key={i + 1} src={`/produtos/Caixa_${i + 1}.svg`} />
                         ))}
                     </div>
                 </Marquee>
-                <Marquee speed={50} gradient={false} direction="right" className="gap-x-8">
+                <Marquee autoFill speed={50} gradient={false} direction="right" className="gap-x-8">
                     <div className="flex-row items-center gap-x-8">
                         {Array.from({ length: 6 }, (_, i) => (
-                            <img className="w-[10vw] lg:w-[170px] mx-4" key={i + 8} src={`/produtos/Caixa_${i + 8}.svg`} />
+                            <img className="mx-4" key={i + 8} src={`/produtos/Caixa_${i + 8}.svg`} />
                         ))}
                     </div>
-                </Marquee> */}
+                </Marquee>
             </div>
         </section>
     );

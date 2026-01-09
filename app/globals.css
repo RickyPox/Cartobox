@@ -3,11 +3,15 @@
 
 :root {
     --primary-color: #00a3d4;
-    --secondary-color: #c4e4ff;
+    --secondary-color: #73dfff;
     --black: #000000;
     --white: #ffffff;
     --off-white: #f2f2f2;
     --border: #0c0a0415;
+}
+
+@theme {
+    --breakpoint-xs: 30rem;
 }
 
 html {
@@ -93,6 +97,7 @@ footer {
 .footer-rights-wrapper a {
     text-decoration: underline;
 }
+
 .container {
     max-width: 1440px;
     padding: 112px 64px;
@@ -121,6 +126,10 @@ footer {
 
 .bg-primary {
     background-color: var(--primary-color);
+}
+
+.bg-gradient-blue {
+    background: linear-gradient(135deg, #73dfff, #00a3d4);
 }
 
 .shadow {

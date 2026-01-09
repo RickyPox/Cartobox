@@ -2,7 +2,7 @@ import Marquee from "react-fast-marquee";
 
 export default function AboutClients() {
     return (
-        <section className=" flex justify-center">
+        <section className=" flex flex-col items-center justify-center">
             <div className="container relative">
                 <div className="wrapper flex flex-row items-end">
                     <div className="about-wrapper flex-column gap-y-6 md:w-1/2">
@@ -28,7 +28,12 @@ export default function AboutClients() {
                         <img src="/Clientes.png" alt="Cliente" aria-label="imagem cliente" />
                     </div>
                 </div>
-                <Marquee></Marquee>
+            </div>
+            <div className="lg:-mt-20 -mt-10">
+                <Marquee autoFill speed={50} gradient={false}>
+                    <div className="flex-row items-center mx-4">LOGO DE CLIENTE</div>
+                    <img className="mx-4" src="Logo_navbar.svg" />
+                </Marquee>
             </div>
         </section>
     );

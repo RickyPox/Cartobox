@@ -1,6 +1,6 @@
 "use client";
 
-import { Canvas, useThree } from "@react-three/fiber";
+import { Canvas } from "@react-three/fiber";
 import { OrbitControls, useGLTF, Center, PerspectiveCamera } from "@react-three/drei";
 import * as THREE from "three";
 import { Suspense, useEffect, useRef, useState } from "react";
@@ -95,8 +95,8 @@ export default function ThreeModel() {
             <CameraAnimation distance={distance} cameraRef={cameraRef} setOrbitEnabled={setOrbitEnabled} />
 
             {/* LUZES */}
-            <ambientLight intensity={2} />
-            <directionalLight position={[5, 5, 5]} intensity={1} />
+            <ambientLight intensity={4} />
+            <directionalLight position={[5, 5, 5]} intensity={3} />
 
             {/* MODELO */}
             <Suspense fallback={null}>
@@ -113,7 +113,7 @@ export default function ThreeModel() {
                 minAzimuthAngle={degToRad(-20)}
                 maxAzimuthAngle={degToRad(20)}
                 minPolarAngle={degToRad(60)}
-                maxPolarAngle={degToRad(100)}
+                maxPolarAngle={degToRad(90)}
             />
         </Canvas>
     );
