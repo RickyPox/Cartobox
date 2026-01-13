@@ -65,7 +65,7 @@ export const metadata: Metadata = {
         apple: "/apple-touch-icon.png",
     },
 
-    /* metadataBase: new URL("https://cartobox.pt"), */
+    metadataBase: new URL("https://cartobox.vercel.app/"),
 };
 
 export default function RootLayout({
