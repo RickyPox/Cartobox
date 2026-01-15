@@ -3,6 +3,8 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Toaster } from "react-hot-toast";
+import localBusinessSchema from "./lib/schema/localBusiness";
+import Script from "next/script";
 
 export const viewport: Viewport = {
     width: "device-width",
@@ -80,6 +82,12 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="pt-PT">
+            <Script
+                id="local-business-schema"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+            />
             <body>
                 <Navbar />
                 {children}

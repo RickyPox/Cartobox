@@ -150,6 +150,10 @@ footer {
     border-radius: 8px;
 }
 
+.faq-accordion:hover .faq-icon {
+    transform: rotate(90deg);
+}
+
 .answer-wrapper {
     height: 0;
     overflow: hidden;

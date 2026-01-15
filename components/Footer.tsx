@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import navItems from "../data/nav.json";
 export default function Footer() {
@@ -5,7 +6,7 @@ export default function Footer() {
         <footer className="flex-column gap-y-20 items-center justify-center">
             <div className="w-full wrapper flex lg:flex-row flex-col gap-x-32 sm:gap-y-32 gap-y-20 items-center">
                 <Link href="/">
-                    <img className="max-w-[200px]" src="/Logo_footer.svg" alt="Logo" aria-label="Logo" />
+                    <img className="max-w-50" src="/Logo_footer.svg" alt="Logo" aria-label="Logo" />
                 </Link>
                 <div className="sm:flex-row flex flex-col gap-y-10 justify-between gap-x-10 w-full">
                     <ul className="footer-nav-items-wrapper flex-column gap-y-3 items-center">

@@ -1,4 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
+
 import { useState, useRef } from "react";
 import gsap from "gsap";
 import faq from "../data/faq.json";
@@ -53,11 +55,13 @@ export default function Faq() {
                                     onClick={() => handleToggle(i)}
                                 >
                                     <p className="font-bold!">{item.question}</p>
+
                                     <img
+                                        className="faq-icon"
                                         src="/faq_icon.svg"
                                         alt="Icon Abrir/Fechar"
                                         style={{
-                                            transform: isOpen ? "rotate(135deg)" : "rotate(0deg)",
+                                            transform: isOpen ? "rotate(225deg)" : undefined,
                                             transition: "transform 0.3s ease",
                                         }}
                                     />
