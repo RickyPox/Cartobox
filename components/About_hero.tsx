@@ -19,7 +19,9 @@ export default function AboutHero() {
                                 negócios e que possam acondicionar o melhor possível os seus produtos, seja no armazenamento ou no transporte.
                             </p>
                         </div>
-                        <Button text="Faça parte da nossa história" link="#" bgColor="var(--primary-color)" />
+                        <div className="flex">
+                            <Button text="Faça parte da nossa história" link="#" bgColor="var(--primary-color)" />
+                        </div>
                     </div>
                 </div>
             </div>

@@ -14,7 +14,7 @@ export default function Home() {
                         </p>
                     </div>
 
-                    <div>
+                    <div className="flex">
                         <Button text="Encontre a embalagem à sua medida" Icon={true} link="/contactos" bgColor="var(--primary-color)" />
                     </div>
                 </div>

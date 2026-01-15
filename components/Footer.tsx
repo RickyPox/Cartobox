@@ -12,8 +12,8 @@ export default function Footer() {
                         <h3 className="">Navegação</h3>
                         {navItems.map((item, index) => (
                             <li key={index}>
-                                <Link href={item.link} className="footer-nav-item text-center">
-                                    <p className="hover:scale-105 transition-all duration-200">{item.title}</p>
+                                <Link href={item.link} className="footer-nav-item text-center hover:scale-105 transition-all duration-200">
+                                    {item.title}
                                 </Link>
                             </li>
                         ))}
