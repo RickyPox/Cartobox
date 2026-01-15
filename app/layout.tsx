@@ -43,7 +43,7 @@ export const metadata: Metadata = {
             "Na Cartobox desenvolvemos embalagens personalizadas à medida do seu negócio. Impressão, dimensão e estrutura adaptadas às suas necessidades.",
         images: [
             {
-                url: "/og-image.png", // ideal: 1200x630
+                url: "/og-image.webp", // ideal: 1200x630
                 width: 1200,
                 height: 630,
                 alt: "Cartobox - Embalagens Personalizadas",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
         title: "Cartobox | Caixas que são a cara do seu negócio!",
         description:
             "Na Cartobox desenvolvemos embalagens personalizadas à medida do seu negócio. Impressão, dimensão e estrutura adaptadas às suas necessidades.",
-        images: ["/og-image.png"],
+        images: ["/og-image.webp"],
     },
 
     icons: {

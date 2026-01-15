@@ -12,9 +12,9 @@ export default function Service() {
                     </div>
                 </div>
                 <div className="cards-wrapper w-full lg:grid lg:grid-cols-3 lg:gap-8 flex flex-col gap-y-6">
-                    <Card category="Personalização" title="Design à medida com impressão de alta qualidade" image="/Personalizacao.png" />
-                    <Card category="Sustentabilidade" title="Temos um compromisso com o ambiente" image="/Sustentabilidade.png" />
-                    <Card category="Rapidez" title="Entrega rápida para garantir as necessidades" image="/Rapidez.png" />
+                    <Card category="Personalização" title="Design à medida com impressão de alta qualidade" image="/Personalizacao.webp" />
+                    <Card category="Sustentabilidade" title="Temos um compromisso com o ambiente" image="/Sustentabilidade.webp" />
+                    <Card category="Rapidez" title="Entrega rápida para garantir as necessidades" image="/Rapidez.webp" />
                 </div>
             </div>
         </section>

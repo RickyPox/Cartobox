@@ -14,7 +14,7 @@ export default function Cardboard() {
                     {cardboard.map((items, i) => (
                         <div key={i} className="flex md:flex-row flex-col gap-x-4 gap-y-4 text-center md:text-left">
                             <div className="cardboard-image-wrapper md:max-w-75 object-cover">
-                                <img src={items.img} alt={items.name} />
+                                <img src={items.img} alt={items.name} loading="lazy" />
                             </div>
                             <div className="cardboard-info-wrapper flex-column gap-y-3">
                                 <p className="font-bold!">{items.name}</p>

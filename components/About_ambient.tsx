@@ -6,34 +6,46 @@ export default function AboutAmbient() {
                     <h2 className="text-center">O nosso compromisso com o ambiente</h2>
                     <div className="certificates-wrapper gap-x-8 gap-y-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                         <div className="fcs-wrapper col-span-1 flex-column gap-y-8 items-center justify-center">
-                            <a className="flex-column gap-y-8 h-full justify-between" href="">
+                            <a
+                                className="flex-column gap-y-8 h-full justify-between"
+                                href="https://drive.google.com/file/d/1By_tXPZn5Z8-zI0I6bV1RoWZAKjTgOes/view"
+                            >
                                 <img
                                     className="h-full md:max-h-[180px] max-h-[180px] object-contain"
-                                    src="FSC.png"
+                                    src="FSC.webp"
                                     alt="FSC Logo"
                                     aria-label="Logo FSC"
+                                    loading="lazy"
                                 />
                                 <h4 className="text-center">Certificação FSC</h4>
                             </a>
                         </div>
                         <div className="ponto-verde-wrapper col-span-1 flex-column items-center justify-center">
-                            <a className="flex-column gap-y-8 h-full justify-between" href="">
+                            <a
+                                className="flex-column gap-y-8 h-full justify-between"
+                                href="https://drive.google.com/file/d/1fkWGf6nxLpBxj3_p6R42-iu7kyYedbOH/view"
+                            >
                                 <img
-                                    className="h-full md:max-h-[180px] max-h-[80px] object-contain"
-                                    src="Ponto_verde.png"
+                                    className="h-full md:max-h-[70px] max-h-[80px] object-contain"
+                                    src="Ponto_verde.webp"
                                     alt="Ponto Verde Logo"
                                     aria-label="Logo Ponto Verde"
+                                    loading="lazy"
                                 />
                                 <h4 className="text-center">Certificação Ponto Verde</h4>
                             </a>
                         </div>
                         <div className="pegada-carbono-wrapper col-span-1 flex-column gap-y-8 items-center justify-center">
-                            <a className="flex-column gap-y-8 h-full justify-between" href="">
+                            <a
+                                className="flex-column gap-y-8 h-full justify-between"
+                                href="https://drive.google.com/file/d/1By_tXPZn5Z8-zI0I6bV1RoWZAKjTgOes/view"
+                            >
                                 <img
                                     className="h-full md:max-h-[180px] max-h-[180px] object-contain"
-                                    src="Pegada.png"
+                                    src="Pegada.webp"
                                     alt="Pegada Logo"
                                     aria-label="Logo Pegada"
+                                    loading="lazy"
                                 />
                                 <h4 className="text-center">Redução Pegada de Carbono</h4>
                             </a>

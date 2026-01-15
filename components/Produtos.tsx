@@ -16,14 +16,14 @@ export default function Produtos() {
                 <Marquee autoFill speed={50} gradient={false} className="gap-x-8 ">
                     <div className="flex-row items-center gap-x-8">
                         {Array.from({ length: 7 }, (_, i) => (
-                            <img className="mx-4" key={i + 1} src={`/produtos/Caixa_${i + 1}.svg`} />
+                            <img className="mx-4" key={i + 1} src={`/produtos/Caixa_${i + 1}.svg`} alt={`Imagem ${i}`} loading="lazy" />
                         ))}
                     </div>
                 </Marquee>
                 <Marquee autoFill speed={50} gradient={false} direction="right" className="gap-x-8">
                     <div className="flex-row items-center gap-x-8">
                         {Array.from({ length: 6 }, (_, i) => (
-                            <img className="mx-4" key={i + 8} src={`/produtos/Caixa_${i + 8}.svg`} />
+                            <img className="mx-4" key={i + 8} src={`/produtos/Caixa_${i + 8}.svg`} alt={`Imagem ${i}`} loading="lazy" />
                         ))}
                     </div>
                 </Marquee>

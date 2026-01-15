@@ -7,7 +7,7 @@ import { Suspense, useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 
 function Model() {
-    const { scene } = useGLTF("/model/Cartobox.glb");
+    const { scene } = useGLTF("/model/cartobox_model.glb");
 
     return (
         <Center>

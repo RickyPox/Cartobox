@@ -5,7 +5,7 @@ export default function Footer() {
         <footer className="flex-column gap-y-20 items-center justify-center">
             <div className="w-full wrapper flex lg:flex-row flex-col gap-x-32 sm:gap-y-32 gap-y-20 items-center">
                 <Link href="/">
-                    <img className="max-w-[200px]" src="/Logo_footer.svg" alt="Logo" aria-label="Logo" />
+                    <img className="max-w-[200px]" src="/Logo_footer.svg" alt="Logo" aria-label="Logo" loading="lazy" />
                 </Link>
                 <div className="sm:flex-row flex flex-col gap-y-10 justify-between gap-x-10 w-full">
                     <ul className="footer-nav-items-wrapper flex-column gap-y-3 items-center">
@@ -60,7 +60,7 @@ export default function Footer() {
                         target="_blank"
                         className="hover:scale-105 transition-all duration-200"
                     >
-                        <img src="/Facebook_icon.svg" alt="Facebook" />
+                        <img src="/Facebook_icon.svg" alt="Facebook" loading="lazy" />
                     </a>
                     <a
                         href="https://www.instagram.com/cartobox.lda/"
@@ -68,7 +68,7 @@ export default function Footer() {
                         target="_blank"
                         className="hover:scale-105 transition-all duration-200"
                     >
-                        <img src="/Instagram_icon.svg" alt="Instagram" />
+                        <img src="/Instagram_icon.svg" alt="Instagram" loading="lazy" />
                     </a>
                     <a
                         href="https://www.linkedin.com/company/cartobox-lda/"
@@ -76,7 +76,7 @@ export default function Footer() {
                         target="_blank"
                         className="hover:scale-105 transition-all duration-200"
                     >
-                        <img src="/LinkedIn_icon.svg" alt="LinkedIn" />
+                        <img src="/LinkedIn_icon.svg" alt="LinkedIn" loading="lazy" />
                     </a>
                 </div>
             </div>
@@ -101,9 +101,10 @@ export default function Footer() {
             <div className="w-full wrapper">
                 <img
                     className="max-w-200 w-full object-contain "
-                    src="/Cofinanciado.png"
+                    src="/Cofinanciado.webp"
                     alt="Confinanciado"
                     aria-label="Confinanciado por Centro 2020, Portugal 2020, União Europeia"
+                    loading="lazy"
                 />
             </div>
         </footer>
