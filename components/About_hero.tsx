@@ -9,7 +9,6 @@ export default function AboutHero() {
                         className="md:w-1/3 md:h-auto md:object-center w-auto h-80 object-cover object-top"
                         src="/About_hero.webp"
                         alt="About Hero Image"
-                        loading="eager"
                     />
                     <div className="flex-column lg:gap-y-8 gap-y-6">
                         <div className="about-wrapper flex-column gap-y-6">

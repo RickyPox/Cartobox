@@ -15,7 +15,6 @@ export default function AboutAmbient() {
                                     src="FSC.webp"
                                     alt="FSC Logo"
                                     aria-label="Logo FSC"
-                                    loading="lazy"
                                 />
                                 <h4 className="text-center">Certificação FSC</h4>
                             </a>
@@ -30,7 +29,6 @@ export default function AboutAmbient() {
                                     src="Ponto_verde.webp"
                                     alt="Ponto Verde Logo"
                                     aria-label="Logo Ponto Verde"
-                                    loading="lazy"
                                 />
                                 <h4 className="text-center">Certificação Ponto Verde</h4>
                             </a>
@@ -45,7 +43,6 @@ export default function AboutAmbient() {
                                     src="Pegada.webp"
                                     alt="Pegada Logo"
                                     aria-label="Logo Pegada"
-                                    loading="lazy"
                                 />
                                 <h4 className="text-center">Redução Pegada de Carbono</h4>
                             </a>

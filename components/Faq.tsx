@@ -60,7 +60,6 @@ export default function Faq() {
                                             transform: isOpen ? "rotate(135deg)" : "rotate(0deg)",
                                             transition: "transform 0.3s ease",
                                         }}
-                                        loading="lazy"
                                     />
                                 </div>
 

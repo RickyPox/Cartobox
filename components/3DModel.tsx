@@ -6,6 +6,7 @@ import * as THREE from "three";
 import { Suspense, useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 
+useGLTF.preload("/model/cartobox_model.glb");
 function Model() {
     const { scene } = useGLTF("/model/cartobox_model.glb");
 

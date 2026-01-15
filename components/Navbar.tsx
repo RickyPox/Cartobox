@@ -100,7 +100,7 @@ export default function Navbar() {
             <div className="w-full wrapper flex items-center justify-between">
                 {/* Logo */}
                 <Link href="/">
-                    <img src="../Logo_navbar.svg" alt="Logo" aria-label="Logo" className="h-8" loading="lazy" />
+                    <img src="../Logo_navbar.svg" alt="Logo" aria-label="Logo" className="h-8" />
                 </Link>
 
                 {/* Desktop Menu */}

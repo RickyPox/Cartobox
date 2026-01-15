@@ -128,7 +128,6 @@ export default function Contactos() {
                                 height={"100%"}
                                 style={{ border: 0 }}
                                 allowFullScreen
-                                loading="lazy"
                                 referrerPolicy="no-referrer-when-downgrade"
                             ></iframe>
                         </div>

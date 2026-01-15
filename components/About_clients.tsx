@@ -25,14 +25,14 @@ export default function AboutClients() {
                     </div>
 
                     <div className="md:block hidden">
-                        <img src="/Clientes.webp" alt="Cliente" aria-label="imagem cliente" loading="lazy" />
+                        <img src="/Clientes.webp" alt="Cliente" aria-label="imagem cliente" />
                     </div>
                 </div>
             </div>
             <div className="lg:-mt-20 -mt-10">
                 <Marquee autoFill speed={50} gradient={false}>
                     <div className="flex-row items-center mx-4">LOGO DE CLIENTE</div>
-                    <img alt="Logo do Cliente" className="mx-4" src="Logo_navbar.svg" loading="lazy" />
+                    <img alt="Logo do Cliente" className="mx-4" src="Logo_navbar.svg" />
                 </Marquee>
             </div>
         </section>
