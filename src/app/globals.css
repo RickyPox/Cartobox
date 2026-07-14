@@ -1,0 +1,144 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --font-sans: var(--font-instrument-sans);
+    --font-heading: var(--font-archivo);
+    --font-mono: var(--font-space-mono);
+    --color-sidebar-ring: var(--sidebar-ring);
+    --color-sidebar-border: var(--sidebar-border);
+    --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+    --color-sidebar-accent: var(--sidebar-accent);
+    --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+    --color-sidebar-primary: var(--sidebar-primary);
+    --color-sidebar-foreground: var(--sidebar-foreground);
+    --color-sidebar: var(--sidebar);
+    --color-ring: var(--ring);
+    --color-input: var(--input);
+    --color-border: var(--border);
+    --color-destructive: var(--destructive);
+    --color-accent-foreground: var(--accent-foreground);
+    --color-accent: var(--accent);
+    --color-muted-foreground: var(--muted-foreground);
+    --color-muted: var(--muted);
+    --color-secondary-foreground: var(--secondary-foreground);
+    --color-secondary: var(--secondary);
+    --color-primary-foreground: var(--primary-foreground);
+    --color-primary: var(--primary);
+    --color-popover-foreground: var(--popover-foreground);
+    --color-popover: var(--popover);
+    --color-card-foreground: var(--card-foreground);
+    --color-card: var(--card);
+    --radius-sm: calc(var(--radius) * 0.6);
+    --radius-md: calc(var(--radius) * 0.8);
+    --radius-lg: var(--radius);
+    --radius-xl: calc(var(--radius) * 1.4);
+    --radius-2xl: calc(var(--radius) * 1.8);
+    --radius-3xl: calc(var(--radius) * 2.2);
+    --radius-4xl: calc(var(--radius) * 2.6);
+
+    /* Cartobox brand palette */
+    --color-paper: var(--paper);
+    --color-paper-2: var(--paper-2);
+    --color-surface: var(--surface);
+    --color-ink: var(--ink);
+    --color-ink-2: var(--ink-2);
+    --color-line: var(--line);
+    --color-kraft: var(--kraft);
+    --color-kraft-dark: var(--kraft-dark);
+    --color-kraft-light: var(--kraft-light);
+    --color-brand: var(--brand-blue-bright);
+    --color-brand-dark: var(--brand-blue-dark);
+    --color-brand-bright: var(--brand-blue-bright);
+    --color-brand-green: var(--brand-green);
+}
+
+:root {
+    --paper: #f4efe6;
+    --paper-2: #ece3d4;
+    --surface: #fffdf9;
+    --ink: #17191f;
+    --ink-2: #5b584f;
+    --line: #e2d8c6;
+    --kraft: #c9a06a;
+    --kraft-dark: #9a7240;
+    --kraft-light: #e8d5b3;
+    --brand-blue: #1b53a8;
+    --brand-blue-dark: #0e2c5f;
+    --brand-blue-bright: #2f7fe0;
+    --brand-green: #3f7a54;
+
+    --background: var(--paper);
+    --foreground: var(--ink);
+    --card: var(--surface);
+    --card-foreground: var(--ink);
+    --popover: var(--surface);
+    --popover-foreground: var(--ink);
+    --primary: var(--brand-blue-bright);
+    --primary-foreground: #ffffff;
+    --secondary: var(--paper-2);
+    --secondary-foreground: var(--ink);
+    --muted: var(--paper-2);
+    --muted-foreground: var(--ink-2);
+    --accent: var(--kraft-light);
+    --accent-foreground: var(--kraft-dark);
+    --destructive: oklch(0.577 0.245 27.325);
+    --border: var(--line);
+    --input: var(--line);
+    --ring: var(--brand-blue);
+    --radius: 0.75rem;
+    --sidebar: var(--surface);
+    --sidebar-foreground: var(--ink);
+    --sidebar-primary: var(--brand-blue);
+    --sidebar-primary-foreground: #ffffff;
+    --sidebar-accent: var(--kraft-light);
+    --sidebar-accent-foreground: var(--kraft-dark);
+    --sidebar-border: var(--line);
+    --sidebar-ring: var(--brand-blue-);
+}
+
+@layer base {
+    * {
+        @apply border-border outline-ring/50;
+    }
+    html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 78px;
+    }
+    body {
+        @apply bg-background text-foreground font-sans;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+        @apply font-heading;
+    }
+}
+
+/* scroll-reveal fade/slide-up, driven by components/site/reveal.tsx */
+.rv {
+    opacity: 0;
+    transform: translateY(26px);
+    transition:
+        opacity 0.68s cubic-bezier(0.22, 0.61, 0.36, 1),
+        transform 0.68s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.rv[data-seen="true"] {
+    opacity: 1;
+    transform: none;
+}
+.rv-1[data-seen="true"] {
+    transition-delay: 90ms;
+}
+.rv-2[data-seen="true"] {
+    transition-delay: 170ms;
+}
+.rv-3[data-seen="true"] {
+    transition-delay: 260ms;
+}
