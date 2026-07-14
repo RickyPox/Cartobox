@@ -6,6 +6,7 @@ import { MaterialDiagram } from "@/components/site/material-diagram";
 import { Products } from "@/components/site/products";
 import { CardTypes } from "@/components/site/card-types";
 import { Environment } from "@/components/site/environment";
+import { Faq } from "@/components/site/faq";
 import { Contact } from "@/components/site/contact";
 import { Footer } from "@/components/site/footer";
 
@@ -21,6 +22,7 @@ export default function Home() {
         <Products />
         <CardTypes />
         <Environment />
+        <Faq />
         <Contact />
       </main>
       <Footer />

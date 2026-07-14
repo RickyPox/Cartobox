@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 function LinkedinIcon(props: React.SVGProps<SVGSVGElement>) {
     return (
@@ -46,20 +47,9 @@ export function Footer() {
             <div className="mx-auto max-w-[1200px] px-7">
                 <div className="grid gap-10 md:grid-cols-[1.5fr_1fr_1fr_1.1fr]">
                     <div>
-                        <a
-                            href="#top"
-                            className="mb-4 flex items-center gap-[11px] font-heading text-[23px] font-extrabold tracking-[-0.03em] text-white"
-                        >
-                            <svg className="size-8.5 shrink-0" viewBox="0 0 34 34" fill="none">
-                                <rect x="1" y="1" width="32" height="32" rx="9" fill="var(--brand-blue)" />
-                                <rect x="8" y="9.6" width="18" height="2.7" rx="1.35" fill="#fff" opacity=".95" />
-                                <rect x="8" y="15.6" width="18" height="2.7" rx="1.35" fill="#fff" opacity=".68" />
-                                <rect x="8" y="21.6" width="18" height="2.7" rx="1.35" fill="#fff" opacity=".42" />
-                            </svg>
-                            <span>
-                                carto<span className="text-[#8fb2ea]">box</span>
-                            </span>
-                        </a>
+                        <Link href="#top" className="mb-4 flex">
+                            <Image src="/logo_white.svg" alt="Cartobox" width={200} height={200} />
+                        </Link>
                         <p className="max-w-[34ch] text-[15.5px] leading-[1.6] text-[#9a958b]">Fazemos caixas que são mesmo a cara da sua empresa.</p>
                         <div className="mt-5.5 flex gap-2.5">
                             {SOCIALS.map((s) => (
@@ -124,9 +114,13 @@ export function Footer() {
                                 </a>
                             </li>
                         </ul>
-                        <div className="mt-5.5 font-mono text-[10.5px] leading-[1.7] tracking-[.06em] text-[#77726a] uppercase">
+                        <Link
+                            href="https://drive.google.com/file/d/1m7jOMCcwv34XX-7DGeZ5B2gnu1Tm55kX/view?usp=sharing"
+                            target="_blank"
+                            className="mt-5.5 flex text-[#8f8a80] transition-colors hover:text-white"
+                        >
                             Ficha de projeto — Apoio à Produção Nacional · Portugal 2020
-                        </div>
+                        </Link>
                     </div>
                 </div>
 

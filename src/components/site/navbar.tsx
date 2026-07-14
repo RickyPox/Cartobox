@@ -18,7 +18,7 @@ const NAV_LINKS = [
 
 function Brand() {
     return (
-        <Link href="/" className="flex items-center gap-[11px] font-heading text-[23px] font-extrabold tracking-[-0.03em]">
+        <Link href="#top" className="flex items-center gap-[11px] font-heading text-[23px] font-extrabold tracking-[-0.03em]">
             <Image src="/logo.svg" alt="Cartobox" width={200} height={200} />
         </Link>
     );
